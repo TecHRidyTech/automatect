@@ -3,74 +3,66 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>TechRidy, Automation Systems, Cape Town</title>
-<meta name="description" content="Custom AI agents and automation systems for businesses in any industry. Built in Cape Town by TechRidy.">
+<title>TechRidy, Programmatic Media Buying, Cape Town</title>
+<meta name="description" content="Programmatic media buying for every industry. Every rand placed with intent, measured and accountable. Cape Town based, buying everywhere.">
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
-:root{--bg:#0B0C0E;--card:#131417;--raised:#1A1C20;--line:#23252A;--text:#E8EAED;--mut:#8A8F98;--green:#86D99F}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+:root{--bg:#0E1014;--card:#15171C;--line:#24262E;--text:#F2F4F7;--mut:#9BA1AD;--accent:#8AB4FF}
 *{margin:0;padding:0;box-sizing:border-box}
 html{scroll-behavior:smooth}
 body{background:var(--bg);color:var(--text);font-family:Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;line-height:1.6;-webkit-font-smoothing:antialiased}
 .wrap{max-width:1080px;margin:0 auto;padding:0 24px}
 nav{display:flex;justify-content:space-between;align-items:center;padding:20px 0;border-bottom:1px solid var(--line)}
-.brand{display:flex;align-items:center;gap:10px;font-weight:700;letter-spacing:.5px;text-decoration:none;color:var(--text)}
-.glyph{width:22px;height:22px}
+.brand{display:flex;align-items:center;gap:10px;font-weight:800;letter-spacing:.5px;text-decoration:none;color:var(--text)}
 nav .links{display:flex;gap:24px}
 nav a.lnk{color:var(--mut);text-decoration:none;font-size:14px;font-weight:500}
 nav a.lnk:hover{color:var(--text)}
-section{padding:88px 0}
+section{padding:84px 0}
 h2{font-size:34px;font-weight:700;letter-spacing:-.5px;margin-bottom:12px}
-.kicker{color:var(--green);font-size:13px;font-weight:600;letter-spacing:2px;text-transform:uppercase;margin-bottom:14px}
-p.lede{color:var(--mut);font-size:18px;max-width:640px}
-/* hero */
-.hero{padding:120px 0 100px}
-.hero h1{font-size:56px;line-height:1.1;font-weight:700;letter-spacing:-1px;max-width:720px}
-.hero h1 em{font-style:normal;color:var(--green)}
-.hero p{color:var(--mut);font-size:19px;max-width:600px;margin:24px 0 36px}
-.cta{display:inline-flex;align-items:center;gap:10px;background:var(--green);color:#0B0C0E;font-weight:600;padding:14px 28px;border-radius:6px;text-decoration:none;font-size:16px}
-.cta:hover{background:#9fe4b5}
-.cta.ghost{background:transparent;color:var(--text);border:1px solid var(--line)}
-.cta.ghost:hover{border-color:var(--mut)}
-/* cards */
+.kicker{color:var(--accent);font-size:13px;font-weight:600;letter-spacing:2px;text-transform:uppercase;margin-bottom:14px}
+p.lede{color:var(--mut);font-size:18px;max-width:660px}
+.hero{padding:110px 0 90px}
+.hero h1{font-size:58px;line-height:1.08;font-weight:800;letter-spacing:-1.5px;max-width:760px}
+.hero h1 em{font-style:normal;color:var(--accent)}
+.hero p{color:var(--mut);font-size:19px;max-width:620px;margin:26px 0 36px}
+.cta{display:inline-flex;align-items:center;gap:10px;background:var(--accent);color:#0E1014;font-weight:600;padding:14px 28px;border-radius:6px;text-decoration:none;font-size:16px}
+.cta:hover{filter:brightness(1.08)}
 .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;margin-top:36px}
 .card{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:24px}
 .card h3{font-size:17px;font-weight:600;margin-bottom:8px}
 .card p{color:var(--mut);font-size:14.5px}
-.card .num{font-family:ui-monospace,Menlo,Consolas,monospace;color:var(--green);font-size:13px;margin-bottom:12px}
-/* steps */
+.card .num{font-family:ui-monospace,Menlo,Consolas,monospace;color:var(--accent);font-size:13px;margin-bottom:12px}
 .steps{margin-top:36px}
 .step{display:flex;gap:24px;padding:22px 0;border-top:1px solid var(--line);align-items:baseline}
 .step:last-child{border-bottom:1px solid var(--line)}
-.step .n{font-family:ui-monospace,Menlo,Consolas,monospace;color:var(--green);min-width:44px;font-size:15px}
+.step .n{font-family:ui-monospace,Menlo,Consolas,monospace;color:var(--accent);min-width:44px;font-size:15px}
 .step h3{font-size:19px;font-weight:600}
 .step p{color:var(--mut);font-size:15px;margin-top:4px}
-/* industries */
 .chips{display:flex;flex-wrap:wrap;gap:10px;margin-top:28px}
 .chip{border:1px solid var(--line);border-radius:4px;padding:8px 16px;font-size:14px;color:var(--mut)}
-/* about + contact */
 .two{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px;margin-top:36px}
-.contact-box{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:40px;text-align:left}
-.contact-box h3{font-size:24px;font-weight:700;margin-bottom:8px}
-.contact-box p{color:var(--mut);margin-bottom:24px;font-size:15px}
-.wa{display:inline-flex;align-items:center;gap:10px;background:var(--green);color:#0B0C0E;font-weight:600;padding:14px 28px;border-radius:6px;text-decoration:none}
-.about-box{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:40px}
-.about-box p{color:var(--mut);font-size:15px;margin-bottom:14px}
-.about-box p:last-child{margin-bottom:0}
+.box{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:40px}
+.box h3{font-size:24px;font-weight:700;margin-bottom:8px}
+.box p{color:var(--mut);margin-bottom:14px;font-size:15px}
+.box p:last-child{margin-bottom:0}
+.wa{display:inline-flex;align-items:center;gap:10px;background:var(--accent);color:#0E1014;font-weight:600;padding:14px 28px;border-radius:6px;text-decoration:none;margin-top:12px}
 footer{border-top:1px solid var(--line);padding:32px 0;color:var(--mut);font-size:13px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
-/* live pulse */
-.dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--green);margin-right:8px}
-@media(max-width:720px){.hero h1{font-size:40px}section{padding:64px 0}nav .links{display:none}}
+.stat-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:16px;margin-top:44px}
+.stat{border:1px solid var(--line);border-radius:8px;padding:20px;background:transparent}
+.stat .v{font-size:26px;font-weight:700;letter-spacing:-.5px}
+.stat .l{color:var(--mut);font-size:13px;margin-top:4px}
+@media(max-width:720px){.hero h1{font-size:40px}section{padding:60px 0}nav .links{display:none}}
 </style>
 </head>
 <body>
 <div class="wrap">
 <nav>
 <a class="brand" href="#top">
-<svg class="glyph" viewBox="0 0 24 24" fill="none"><path d="M7.5 3H22l-4 5H3.5z" fill="#86D99F"/><path d="M3.5 9.5H18l4 5H7.5z" fill="#E8EAED"/><path d="M7.5 16H22l-4 5H3.5z" fill="#86D99F"/></svg>
-TECH<span style="color:var(--green)">RIDY</span>
+<svg width="22" height="22" viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="7" height="7" rx="1" fill="#8AB4FF"/><rect x="14" y="3" width="7" height="7" rx="1" fill="#F2F4F7"/><rect x="3" y="14" width="7" height="7" rx="1" fill="#F2F4F7"/><rect x="14" y="14" width="7" height="7" rx="1" fill="#8AB4FF"/></svg>
+TECH<span style="color:var(--accent)">RIDY</span>
 </a>
 <div class="links">
-<a class="lnk" href="#services">Services</a>
+<a class="lnk" href="#buy">What I buy</a>
 <a class="lnk" href="#how">How it works</a>
 <a class="lnk" href="#industries">Industries</a>
 <a class="lnk" href="#contact">Contact</a>
@@ -78,54 +70,58 @@ TECH<span style="color:var(--green)">RIDY</span>
 </nav>
 
 <section class="hero" id="top">
-<h1>Your business, <em>running itself.</em></h1>
-<p>I design and build AI agents and automation systems that do the work while you sleep: answering customers, chasing invoices, moving data between your tools, reporting every morning at 08:00. Built from Cape Town. Deployed for any industry.</p>
-<a class="cta" href="#contact"><span class="dot"></span>Get a free 30 minute assessment</a>
+<h1>Media, bought <em>properly.</em></h1>
+<p>I am a programmatic media buyer. I plan, buy and manage digital advertising so every rand lands in front of the right person at the right price. Not boost buttons. Real buying: strategy, targeting, placement, optimization and reporting you can hold me to.</p>
+<div class="stat-row">
+<div class="stat"><div class="v">Every rand</div><div class="l">planned before it is spent</div></div>
+<div class="stat"><div class="v">Every impression</div><div class="l">targeted, priced and accountable</div></div>
+<div class="stat"><div class="v">Every week</div><div class="l">a report with what worked</div></div>
+</div>
 </section>
 
-<section id="services">
-<div class="kicker">Services</div>
-<h2>Systems that work. Not slideware.</h2>
-<p class="lede">Every build is real software: documented, monitored, hosted and yours. Below is what I ship.</p>
+<section id="buy">
+<div class="kicker">What I buy</div>
+<h2>The full programmatic stack.</h2>
+<p class="lede">One buyer across the channels, so your message stays consistent and your budget follows performance, not habit.</p>
 <div class="grid">
-<div class="card"><div class="num">01</div><h3>AI agents</h3><p>Agents that answer customers, qualify leads and follow up around the clock. On WhatsApp, email or your website. They do not take weekends.</p></div>
-<div class="card"><div class="num">02</div><h3>Workflow automation</h3><p>The repeated work, gone. Invoicing, scheduling, reporting, reminders, data entry: mapped, automated and verified end to end.</p></div>
-<div class="card"><div class="num">03</div><h3>Integrations</h3><p>Your tools talking to each other. CRM, spreadsheets, WhatsApp, email, accounting, dashboards. One source of truth, no more copy-paste.</p></div>
-<div class="card"><div class="num">04</div><h3>Hosted, 24/7</h3><p>I deploy and host the system so it runs around the clock, with monitoring and maintenance included. If it stops, I know before you do.</p></div>
+<div class="card"><div class="num">01</div><h3>Programmatic display and native</h3><p>Real time bidding across premium and long tail inventory. Brand safe placements, bought at the price the impression is worth, not the price a sales rep quoted.</p></div>
+<div class="card"><div class="num">02</div><h3>Paid social</h3><p>Campaigns built on audience data, creative tested in structured batches, budgets shifted daily toward what converts. Meta, TikTok, LinkedIn.</p></div>
+<div class="card"><div class="num">03</div><h3>Search and shopping</h3><p>Intent capture done properly: tight account structure, honest keyword math, landing pages that do not waste the click.</p></div>
+<div class="card"><div class="num">04</div><h3>Video and CTV</h3><p>Connected TV and online video bought programmatically, with the same measurement discipline as performance display.</p></div>
 </div>
 </section>
 
 <section id="how">
 <div class="kicker">How it works</div>
-<h2>From conversation to running system.</h2>
+<h2>A plan first. Then the spend.</h2>
 <div class="steps">
-<div class="step"><div class="n">01</div><div><h3>We talk</h3><p>A free 30 minute call. You describe the work that eats your week. I tell you straight what can be automated and what it takes.</p></div></div>
-<div class="step"><div class="n">02</div><div><h3>I map it</h3><p>Your workflows on paper: every step, every tool, every hour spent. You approve the plan before a line of code is written.</p></div></div>
-<div class="step"><div class="n">03</div><div><h3>I build it</h3><p>The system is built, tested against your real scenarios, and deployed. You see it working before you pay the final invoice.</p></div></div>
-<div class="step"><div class="n">04</div><div><h3>It runs</h3><p>Hosted and monitored. A weekly report lands in your inbox showing exactly what the system did, in numbers.</p></div></div>
+<div class="step"><div class="n">01</div><div><h3>Audit</h3><p>I look at what you are spending now and where it is leaking. You get the honest version, even if the honest version is uncomfortable.</p></div></div>
+<div class="step"><div class="n">02</div><div><h3>Media plan</h3><p>Channels, audiences, budgets, creative requirements and forecast outcomes, in one document you approve before anything goes live.</p></div></div>
+<div class="step"><div class="n">03</div><div><h3>Buy and launch</h3><p>Campaigns are structured, trafficked and verified live. No set and forget: bids, budgets and audiences are adjusted as data comes in.</p></div></div>
+<div class="step"><div class="n">04</div><div><h3>Report and scale</h3><p>Weekly numbers in plain language: what was spent, what it returned, what changes next week. Winners get budget, losers get cut.</p></div></div>
 </div>
 </section>
 
 <section id="industries">
 <div class="kicker">Industries</div>
-<h2>Every industry. Same principle.</h2>
-<p class="lede">If your business runs on repeated tasks, it can be automated. That is true whether you sell houses or ship freight.</p>
+<h2>Any product. Any market.</h2>
+<p class="lede">Media buying is not industry specific. The discipline transfers: understand the buyer, find them at scale, pay the right price. I have bought across sectors and I will buy for yours.</p>
 <div class="chips">
-<span class="chip">Retail</span><span class="chip">Property</span><span class="chip">Logistics</span><span class="chip">Hospitality</span><span class="chip">Finance</span><span class="chip">Healthcare</span><span class="chip">Agriculture</span><span class="chip">Media</span><span class="chip">Construction</span><span class="chip">Legal</span><span class="chip">Education</span><span class="chip">Trades</span>
+<span class="chip">Retail</span><span class="chip">E-commerce</span><span class="chip">Property</span><span class="chip">Automotive</span><span class="chip">Finance</span><span class="chip">Travel</span><span class="chip">Hospitality</span><span class="chip">Healthcare</span><span class="chip">Education</span><span class="chip">B2B</span><span class="chip">Entertainment</span><span class="chip">Startups</span>
 </div>
 </section>
 
 <section id="contact">
 <div class="two">
-<div class="about-box">
+<div class="box">
 <div class="kicker">About</div>
-<h3 style="margin-bottom:16px">Cape Town, working everywhere.</h3>
-<p>I build automation systems for a living: not pitches, running software. My clients are business owners who are tired of being the machine their business depends on.</p>
-<p>Every system ships documented, monitored, and transferable. When the work is done, it is yours: no lock-in, no black boxes.</p>
+<h3 style="margin-bottom:16px">Cape Town based. Buying everywhere.</h3>
+<p>I do one thing: buy media programmatically, with intent and accountability. Clients get a buyer who treats their budget like it is my own money, and reporting that never hides behind jargon.</p>
+<p>No minimum retainers invented to sound exclusive. If your budget is small, we start small and scale what works.</p>
 </div>
-<div class="contact-box">
+<div class="box">
 <h3>Start with a conversation.</h3>
-<p>Thirty minutes, free, no obligation. Bring your biggest time sink and I will tell you what a system would do about it.</p>
+<p>Thirty minutes, free. Bring your current ad spend and I will tell you where I would move it, or where it is already working.</p>
 <a class="wa" href="#contact">Message me on WhatsApp</a>
 </div>
 </div>
@@ -133,7 +129,7 @@ TECH<span style="color:var(--green)">RIDY</span>
 
 <footer>
 <span>TECHRIDY, Cape Town, South Africa</span>
-<span>Systems built, hosted and maintained.</span>
+<span>Programmatic media buying, planned and accountable.</span>
 </footer>
 </div>
 </body>
